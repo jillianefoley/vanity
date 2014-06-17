@@ -24,7 +24,7 @@ Next proposed change would allow the metric to define multiple columns. Those ca
 metric :purchase do
   columns :count, :total
 end
-metric(:purchase).track! p.items.length. p.total
+metric(:purchase).track! p.items.length, p.total
 metric(:purchase).track! :total=>p.total, :count=>p.items.length
 </pre>
 
