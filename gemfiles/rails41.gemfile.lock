@@ -137,7 +137,7 @@ GEM
     redis-namespace (1.4.1)
       redis (~> 3.0.4)
     rubystats (0.2.3)
-    safe_yaml (1.0.3)
+    safe_yaml (1.0.4)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
